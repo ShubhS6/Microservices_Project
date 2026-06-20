@@ -1,0 +1,23 @@
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    mem_limit: 700m
+    environment:
+      MYSQL_ROOT_PASSWORD: Anaya@123  # Required for administrative access
+      MYSQL_USER: shubh                          # Creates a non-root user
+      MYSQL_PASSWORD: Shubham@123                      # Password for the non-root user
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+    networks:
+      - backend
+    restart: unless-stopped
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  mysql_data:
