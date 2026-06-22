@@ -20,3 +20,8 @@ build:
   version: ${VERSION}
   name: ${NAME}
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
