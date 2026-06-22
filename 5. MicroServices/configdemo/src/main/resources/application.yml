@@ -10,11 +10,6 @@ spring:
 #  name: "Default-Build"
 #  type: "Default Build"
 
-#build:
-#  id: ${ID}
-#  version: 2.2.2
-#  name: "Default-Build"
-#  type: "Default Build"
 
 build:
   id: ${ID}
