@@ -7,7 +7,8 @@ spring:
       server:
         git:
           uri: https://github.com/ShubhS6/Microservices_Project_config
-
+          username: ${GIT_USER}
+          password: ${GIT_TOKEN}
 
 server:
   port: 8888
