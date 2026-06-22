@@ -7,3 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/ShubhS6/Microservices_Project_config
+
+
+server:
+  port: 8888
