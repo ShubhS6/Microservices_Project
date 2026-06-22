@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: configserver
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ShubhS6/Microservices_Project_config
