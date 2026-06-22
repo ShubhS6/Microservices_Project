@@ -1,0 +1,17 @@
+Linux/macOS (Terminal)
+export BUILD_ID=12345
+export BUILD_VERSION=1.0.0
+export BUILD_NAME=ProductService
+java -jar target/app.jar
+
+Windows (Command Prompt)
+set BUILD_ID=12345
+set BUILD_VERSION=1.0.0
+set BUILD_NAME=ProductService
+java -jar target/app.jar
+
+Windows (PowerShell)
+$env:BUILD_ID="12345"
+$env:BUILD_VERSION="1.0.0"
+$env:BUILD_NAME="ProductService"
+java -jar target/app.jar
