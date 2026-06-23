@@ -16,8 +16,8 @@ public class BuildInfoController {
     private String buildVersion;
     @Value("${build.name:default}")
     private String buildName;
-
-    private BuildInfo buildInfo;
+//
+//    private BuildInfo buildInfo;
 
     @GetMapping("/build-info")
     public String getBuildInfo(){

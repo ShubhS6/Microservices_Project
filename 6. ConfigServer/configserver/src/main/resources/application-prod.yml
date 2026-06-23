@@ -1,8 +1,8 @@
 build:
   id: 101
   version: 1.2.3
-  name: "Production-Buildnhhhh"
-  type: "Production Build"
+  name: "Production-Build jdj"
+  type: "Production Build new"
 spring:
   rabbitmq:
     host: localhost
