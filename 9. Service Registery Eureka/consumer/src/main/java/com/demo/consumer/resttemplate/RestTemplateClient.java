@@ -12,6 +12,7 @@
 //    private final RestTemplate restTemplate;
 //
 //    private static final String PROVIDED_URL="http://localhost:8081";
+//    private static final String PROVIDED_URL="http://provider";
 //
 //    public String getInstanceInfo(){
 //        return restTemplate.getForObject(PROVIDED_URL+"/instance-info",String.class);
