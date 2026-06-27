@@ -28,6 +28,7 @@ public class UserController {
             return ResponseEntity.notFound().build();
         }
         return new ResponseEntity<>(userResponse, HttpStatus.OK);
+
     }
 
     @PostMapping("/api/users")
